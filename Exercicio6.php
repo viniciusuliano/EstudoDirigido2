@@ -1,34 +1,26 @@
 <?php
-
 print "Digite o 1º número: ";
-$num1= (float) fgets(STDIN);
-
+$numero1= (float) fgets(STDIN);
 print "Digite o 2º número: ";
-$num2= (float) fgets(STDIN);
-
+$numero2= (float) fgets(STDIN);
 print "Digite o 3º número: ";
-$num3= (float) fgets(STDIN);
+$numero3= (float) fgets(STDIN);
 
-//Para determinar o maior
-if ($num1>$num2 && $num1>$num3) 
+if ($numero1>$numero2 and $numero1>$numero3) 
     {print "O 1º número é o maior";}
-
-if ($num2>$num1 && $num2>$num3) 
+if ($numero2>$numero1 and $numero2>$numero3) 
     {print "O 2º número é o maior";}
-
-if ($num3>$num1 && $num3>$num2) 
+if ($numero3>$numero1 and $numero3>$numero2) 
     {print "O 3º número é o maior";}
 
-//Se houverem números iguais
-if ($num1==$num2 && $num1==$num3) 
+if ($numero1==$numero2 and $numero1==$numero3) 
     {print "Ambos 3 números são iguais";}
-
-if ((float)($num1 && $num2 && $num3))
-        {if ($num1==$num2) 
+if ((float)($numero1 and $numero2 and $numero3))
+        {if ($numero1==$numero2) 
             {print "O 1º e 2º número são iguais";}
             
-        if ($num2==$num3) 
+        if ($numero2==$numero3) 
             {print "O 2º e 3º número são iguais";}
             
-        if ($num3==$num1) 
+        if ($numero3==$numero1) 
             {print "O 1º e 3º número são iguais";}}
