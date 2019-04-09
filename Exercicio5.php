@@ -13,7 +13,7 @@ $media = ($nota1+$nota2)/2;
 $media= round($media, 2);
 $notanecessaria= $medianecessaria-$media;
 
-if ($media>=$medianecessaria && $media!=10)
+if ($media>=$medianecessaria and $media!=10)
     {print "Aluno aprovado(a) - Média: $media; Média necessária: $medianecessaria";}
 
 if ($media<$medianecessaria)
