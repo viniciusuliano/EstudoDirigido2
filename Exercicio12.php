@@ -1,15 +1,9 @@
 <?php
-$num=0;
+$numero=0;
 $contagem=1;
-print "Começando em ...3";
-       sleep(1) ;
-print  " ...2";
-       sleep(1);
-print  " ...1";
-       sleep(1);
-print  " ...0 ";
-       sleep(1);
+print "COMEÇA";
+print "\n\n";
 while ($contagem<=100)
-    {$num++;   
-     print "$num ";        
+    {$numero++;   
+     print "$numero ";        
      $contagem++;}
