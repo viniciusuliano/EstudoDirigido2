@@ -1,32 +1,26 @@
 <?php
-
 print "Digite o 1º número: ";
-$num1= (float) fgets(STDIN);
-
+$numero1= (float) fgets(STDIN);
 print "Digite o 2º número: ";
-$num2= (float) fgets(STDIN);
-
+$numero2= (float) fgets(STDIN);
 print "Digite o 3º número: ";
-$num3= (float) fgets(STDIN);
-
+$numero3= (float) fgets(STDIN);
 print "Digite o 4º número: ";
-$num4= (float) fgets(STDIN);
-
+$numero4= (float) fgets(STDIN);
 print "Digite o 5º número: ";
-$num5= (float) fgets(STDIN);
+$numero5= (float) fgets(STDIN);
 
-//Para determinar o maior
-if ($num1>$num2 && $num1>$num3 && $num1>$num4 && $num1>$num5) 
+if ($numero1>$numero2 and $numero1>$numero3 and $numero1>$numero4 and $numero1>$numero5) 
     {print "O 1º número é o maior\n";}
 
-if ($num2>$num1 && $num2>$num3 && $num2>$num4 && $num2>$num5) 
+if ($numero2>$numero1 and $numero2>$numero3 and $numero2>$numero4 and $numero2>$numero5) 
     {print "O 2º número é o maior\n";}
-
-if ($num3>$num1 && $num3>$num2 && $num3>$num4 && $num3>$num5) 
+    
+if ($numero3>$numero1 and $numero3>$numero2 and $numero3>$numero4 and $numero3>$numero5) 
     {print "O 3º número é o maior\n";}
 
-if ($num4>$num1 && $num4>$num2 && $num4>$num3 && $num3>$num5) 
+if ($numero4>$numero1 and $numero4>$numero2 and $numero4>$numero3 and $numero3>$numero5) 
     {print "O 4º número é o maior\n";}
-
-if ($num5>$num1 && $num5>$num2 && $num5>$num3 && $num5>$num4) 
+    
+if ($numero5>$numero1 and $numero5>$numero2 and $numero5>$numero3 and $numero5>$numero4) 
     {print "O 5º número é o maior\n";}
