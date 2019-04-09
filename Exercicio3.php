@@ -1,16 +1,18 @@
 <?php
-
 print "Digite M ou F: ";
-$sexo= (string) fgets(STDIN);
+$sexo= fgetc (STDIN);
 
-$masc= 'M';
-$femi= 'F';
+if ($sexo== "F"){ 
+    print "Sexo é feminino";
 
-if ((strcasecmp($sexo, $masc))==2)
-  {print "Sexo masculino";
-    exit;}
+}
 
-if ((strcasecmp($sexo, $femi))!=-7 and (strcasecmp($sexo, $femi))==2)
-  {print "Sexo feminino";}
+elseif ($sexo== "M"){
+    print "Sexo é masculino";
+}
 
-else  {print "Sexo inválido";}
+else {
+
+    print "O sexo é invalido";
+    
+}
